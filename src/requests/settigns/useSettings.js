@@ -9,13 +9,15 @@
 //   else return "no info";
 // };
 
-const path = "http://localhost:8080/api/settings";
-
+// const path = "http://localhost:8080/api/settings";
+const path = "https://china-gym-5boca1m60-alamrodriguezs-projects.vercel.app/api/settings";
 export const useGetSettings = async () => {
   // const [resInfo, setResInfo] = useState({});
   console.log(`${path}/get-settings`);
   const res = await fetch(`${path}/get-settings`);
-  return await res.json();
+  const result = await res.json();
+  console.log(result);
+  return result;
   // const resInfo = await res.json();
   // if (res.status == 302) return { resInfo };
   // else return "no info";

@@ -1,4 +1,5 @@
-const path = "http://localhost:8080/api/users";
+// const path = "http://localhost:8080/api/users";
+const path = "https://china-gym-5boca1m60-alamrodriguezs-projects.vercel.app/api/users";
 
 export const createUser = async (user) => {
   const headers = { "Content-Type": "application/json" };
