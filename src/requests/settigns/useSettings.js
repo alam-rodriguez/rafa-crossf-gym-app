@@ -10,7 +10,7 @@
 // };
 
 // const path = "http://localhost:8080/api/settings";
-const path = "https://china-gym-5boca1m60-alamrodriguezs-projects.vercel.app/api/settings";
+const path = "https://rafa-crossf-gym-api.vercel.app/api/settings";
 export const useGetSettings = async () => {
   // const [resInfo, setResInfo] = useState({});
   console.log(`${path}/get-settings`);

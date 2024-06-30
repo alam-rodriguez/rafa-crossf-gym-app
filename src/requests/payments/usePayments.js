@@ -1,5 +1,5 @@
 // const path = "http://localhost:8080/api/payments";
-const path = "https://china-gym-5boca1m60-alamrodriguezs-projects.vercel.app/api/payments";
+const path = "https://rafa-crossf-gym-api.vercel.app/api/payments";
 
 export const addPayment = async (payment) => {
   try {
